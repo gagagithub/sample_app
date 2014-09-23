@@ -6,10 +6,10 @@ gem 'rails', '4.1.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
 
-gem 'rspec-rails', group: :test
+gem 'rspec-rails', group: :development
 
-gem 'selenium-webdriver', group: :test
-gem 'capybara', group: :test
+gem 'selenium-webdriver', group: :development
+gem 'capybara', group: :development
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
